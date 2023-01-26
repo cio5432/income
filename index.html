@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APP WEB</title>
+        <link rel="stylesheet" href="C:\Users\LENOVO\Documents\style.css" >
+    </head>
+    <body>
+        <div class="apk">
+            <h1>INCOME AND EXPENSE</h1>
+
+            <div class="total-container">
+                <h2>TOTAL</h2>
+                <div id="total">Rp.45000</div>
+            </div>
+
+            <div class="cashflow-container">
+                <div class="masuk-container">
+                    <h2>MASUK</h2>
+                    <div id="masuk">Rp.50000</div>
+                </div>
+                <div class="keluar-container">
+                    <h2>KELUAR</h2>
+                    <div id="keluar">Rp.5000</div>
+                </div>
+            </div>
+
+            <div class="transaction-container">
+                <h2>HISTORY TRANSAKSI</h2>
+                <ul id="transaction">
+                    
+                </ul>
+            </div>
+
+            <div class="form-container">
+                <h2>Tambahkan Transaksi Baru</h2>
+                <form onsubmit="return false;">
+                    <label for="teks">teks</label>
+                    <input id="teks" type="text">
+                    <label for="jumlah">jumlah</label>
+                    <input id="jumlah" type="number">
+                    <button id="masukBtn">Pemasukan</button>
+                    <button id="keluarBtn">Pengeluaran</button>
+                </form>
+            </div>
+        </div>
+        <script src="C:\Users\LENOVO\Documents\index.js"></script>
+    </body>
+</html>
